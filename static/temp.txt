@@ -1,2 +1,0 @@
-This file exists so that git cloning will create the static folder.
-Can delete later
