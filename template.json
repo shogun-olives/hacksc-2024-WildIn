@@ -1,24 +1,29 @@
 {
+	"unlabled": "[IMAGE NAME]",
+	"labeled": "[IMAGE NAME]",
 	"plants": {
 		"[PLANT NAME]": {
-			"image": "[IMAGE NAME].png",
-			"locations": {
-				"0": {
-					"xStart": "[X START as int]",
-					"xEnd": "[X END as int]",
-					"yStart": "[Y START as int]",
-					"yEnd": "[Y END as int]"
-				}
+			"qty": "[AMOUNT as int]",
+			"icon": "[ICON NAME]",
+			"description": "[DESCRIPTION]",
+			"locations": [
+				["x1-st", "x1-en", "y1-st", "y1-en"],
+				["x2-st", "x2-en", "y2-st", "y2-en"]
+			]
+		}
+	},
+	"recipes": [
+		{
+			"title": "[RECIPE NAME]",
+			"plants": {
+				"[PLANT NAME]": "[AMOUNT as int]"
 			},
-			"recipe": {
-				"title": "[RECIPE NAME]",
-				"ingredients": {
-					"[INGREDIENT NAME]": "[AMOUNT as int]"
-				},
-				"instructions": {
-					"1": "[STEP 1]"
-				}
+			"ingredients": {
+				"[INGREDIENT NAME]": "[AMOUNT as int]"
+			},
+			"instructions": {
+				"1": "[STEP 1]"
 			}
 		}
-	}
+	]
 }
