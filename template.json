@@ -17,10 +17,10 @@
 		{
 			"title": "[RECIPE NAME]",
 			"plants": {
-				"[PLANT NAME]": "[AMOUNT as int]"
+				"[PLANT NAME]": "[AMOUNT]"
 			},
 			"ingredients": {
-				"[INGREDIENT NAME]": "[AMOUNT as int]"
+				"[INGREDIENT NAME]": "[AMOUNT]"
 			},
 			"instructions": ["[STEP 1]", "[STEP 2]"]
 		}

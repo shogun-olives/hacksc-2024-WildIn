@@ -1,4 +1,6 @@
 from PIL import Image, ImageDraw
+import config
+import os
 
 
 def bounding_boxes(
@@ -13,6 +15,10 @@ def bounding_boxes(
     If None, the output image will be saved in original_output.png
     :return: Path to the output image.
     """
+    # create download directory if it doesn't exist
+    os.mkdir(config.DOWNLOAD_DIR)
+
+    # draw the bounding boxes
     fns = {}
     for label, boxes in labels.items():
         image = Image.open(img_path)
@@ -20,11 +26,13 @@ def bounding_boxes(
         for box in boxes:
             draw.rectangle(box, outline="red", width=2)
 
-        fn = (
-            f"{img_path[:img_path.rfind(".")]}_{label}.png"
-            if out_path is None
-            else f"{out_path[:out_path.rfind(".")]}_{label}.png"
-        )
+        if out_path is None:
+            fn = os.path.basename(img_path)
+            fn = f"{fn[:fn.rfind(".")]}_{label}.png"
+            fn = os.path.join(config.DOWNLOAD_DIR, fn)
+        else:
+            fn = out_path
+
         fns[label] = fn
         image.save(fn)
 

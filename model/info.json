@@ -1,18 +1,18 @@
 {
-	"categories": [
-		"15",
-		"Allium",
-		"Borage",
-		"Burdock",
-		"Calendula",
-		"Chicory",
-		"Chive blossoms",
-		"Coltsfoot",
-		"Common mallow",
-		"Common yarrow",
-		"Coneflower",
-		"Cow parsley",
-		"Dandelion",
-		"Gardenia"
-	]
+	"categories": {
+		"15": "No specific plant name provided",
+		"Allium": "A genus of flowering plants that includes onions, garlic, and leeks, known for their edible bulbs and pungent aroma.",
+		"Borage": "An herb with blue, star-shaped flowers often used in salads and known for its cucumber-like flavor.",
+		"Burdock": "A biennial plant with large leaves and purple burr-like flowers, often used for its root in traditional medicine.",
+		"Calendula": "An herb with bright yellow or orange flowers, commonly known as marigold and used for its healing properties.",
+		"Chicory": "A plant with blue flowers, whose roots are used as a coffee substitute and leaves as a salad ingredient.",
+		"Chive blossoms": "The edible purple flowers of the chive plant, often used as a garnish with a mild onion flavor.",
+		"Coltsfoot": "A flowering plant with yellow, dandelion-like flowers, traditionally used in herbal remedies for coughs.",
+		"Common mallow": "A plant with pink or purple flowers and edible leaves, known for its mucilaginous properties.",
+		"Common yarrow": "A perennial herb with feathery leaves and small white flowers, used for its medicinal properties.",
+		"Coneflower": "A flowering plant with purple, daisy-like petals, often used in herbal medicine, particularly Echinacea.",
+		"Cow parsley": "A white, flowering plant found in woodlands and meadows, known for its delicate, umbrella-shaped flowers.",
+		"Dandelion": "A common flowering plant with yellow blossoms and edible leaves, used in salads and herbal teas.",
+		"Gardenia": "An evergreen shrub with fragrant white flowers, often grown as an ornamental plant."
+	}
 }

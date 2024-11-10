@@ -1,55 +1,38 @@
-from flask import Flask, render_template, redirect, url_for, jsonify, session, request, send_from_directory
-from flask_cors import CORS
-import openai
-import os
-from dotenv import load_dotenv
+from helper import process
+from flask import Flask, request, jsonify
+from werkzeug.utils import secure_filename
 import config
+import os
 
-app = Flask(__name__, static_folder='static', static_url_path='')
-CORS(app)
+app = Flask(__name__)
 
-load_dotenv()
-client = openai.OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+# make folder for uploads
+os.makedirs(config.UPLOAD_DIR, exist_ok=True)
+app.config["UPLOAD_FOLDER"] = config.UPLOAD_DIR
 
-# API endpoints first
-@app.route('/api/chat', methods=['POST'])
-def chat():
-    try:
-        print("Received chat request")  # Debug print
-        data = request.json
-        print(f"Request data: {data}")  # Debug print
-        
-        message = data.get('message')
-        inventory = data.get('inventory', [])
-        
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a helpful foraging assistant. Help users identify plants and provide advice on their uses."},
-                {"role": "user", "content": message}
-            ],
-            temperature=0.7
-        )
-        
-        return jsonify({
-            'message': response.choices[0].message.content
-        })
-    except Exception as e:
-        print(f"Error: {str(e)}")  # Debug print
-        return jsonify({'error': str(e)}), 500
 
-@app.route('/api/test')
-def test_api():
-    return jsonify(message="Backend is working!")
+@app.route("/process", methods=["POST"])
+def process_image():
+    if "image" not in request.files:
+        return jsonify({"error": "No image file in request"}), 400
 
-# Then other routes
-@app.route("/")
-def home():
-    return redirect(url_for("project_select"))
+    file = request.files["image"]
+    if file.filename == "":
+        return jsonify({"error": "No selected file"}), 400
 
-@app.route('/')
-def serve():
-    return send_from_directory(app.static_folder, 'index.html')
+    # Save the file
+    filename = secure_filename(file.filename)
+    file_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
+    file.save(file_path)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+    # process the image
+    return jsonify(process(file_path))
+
+
+@app.route("/<path:path>")
+def reroute(path):
+    return jsonify({"success": False})
+
+
+if __name__ == "__main__":
+    app.run(port=5001, debug=True)

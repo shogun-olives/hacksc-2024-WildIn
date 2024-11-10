@@ -1,0 +1,294 @@
+{
+	"recipes": [
+		{
+			"title": "Allium Garlic Butter",
+			"plants": {
+				"Allium": "2 cloves minced"
+			},
+			"ingredients": {
+				"Butter": "4 tbsp",
+				"Salt": "1/4 tsp"
+			},
+			"instructions": [
+				"Combine minced Allium (garlic) with butter and salt.",
+				"Mix thoroughly and spread over warm bread or cooked vegetables."
+			]
+		},
+		{
+			"title": "Borage Cucumber Salad",
+			"plants": {
+				"Borage": "1/4 cup leaves and flowers"
+			},
+			"ingredients": {
+				"Cucumber": "1 large, sliced",
+				"Olive oil": "1 tbsp",
+				"Salt": "to taste"
+			},
+			"instructions": [
+				"Combine sliced cucumber with borage leaves and flowers.",
+				"Drizzle with olive oil and add salt to taste.",
+				"Toss gently and serve."
+			]
+		},
+		{
+			"title": "Burdock Root Stir-Fry",
+			"plants": {
+				"Burdock": "1/2 cup sliced root"
+			},
+			"ingredients": {
+				"Soy sauce": "1 tbsp",
+				"Olive oil": "1 tbsp",
+				"Garlic": "1 clove, minced"
+			},
+			"instructions": [
+				"Heat oil in a pan and sauté garlic until golden.",
+				"Add sliced burdock root and stir-fry for 5 minutes.",
+				"Add soy sauce, stir well, and serve hot."
+			]
+		},
+		{
+			"title": "Calendula Tea",
+			"plants": {
+				"Calendula": "1 tbsp dried flowers"
+			},
+			"ingredients": {
+				"Hot water": "1 cup"
+			},
+			"instructions": [
+				"Place calendula flowers in a cup and pour hot water over them.",
+				"Steep for 5-10 minutes, then strain and serve warm."
+			]
+		},
+		{
+			"title": "Chicory Coffee Substitute",
+			"plants": {
+				"Chicory": "2 tsp dried, ground root"
+			},
+			"ingredients": {
+				"Water": "1 cup"
+			},
+			"instructions": [
+				"Boil water and add ground chicory root.",
+				"Simmer for 5 minutes, then strain and serve as a coffee substitute."
+			]
+		},
+		{
+			"title": "Chive Blossom Butter",
+			"plants": {
+				"Chive blossoms": "2 tbsp, finely chopped"
+			},
+			"ingredients": {
+				"Butter": "4 tbsp",
+				"Salt": "a pinch"
+			},
+			"instructions": [
+				"Mix chive blossoms with softened butter and salt.",
+				"Spread on toast or use as a savory topping for grilled vegetables."
+			]
+		},
+		{
+			"title": "Coltsfoot Honey Syrup",
+			"plants": {
+				"Coltsfoot": "1 tbsp dried flowers"
+			},
+			"ingredients": {
+				"Honey": "1 cup",
+				"Water": "1/2 cup"
+			},
+			"instructions": [
+				"Combine coltsfoot and water, bring to a boil, and simmer for 10 minutes.",
+				"Strain and mix the liquid with honey until fully blended.",
+				"Use as a syrup for soothing coughs."
+			]
+		},
+		{
+			"title": "Mallow Leaf Salad",
+			"plants": {
+				"Common mallow": "1/2 cup leaves"
+			},
+			"ingredients": {
+				"Lettuce": "1 cup, chopped",
+				"Lemon juice": "1 tbsp",
+				"Olive oil": "1 tbsp"
+			},
+			"instructions": [
+				"Combine mallow leaves with chopped lettuce in a salad bowl.",
+				"Drizzle with lemon juice and olive oil.",
+				"Toss and serve."
+			]
+		},
+		{
+			"title": "Yarrow Infusion",
+			"plants": {
+				"Common yarrow": "1 tsp dried leaves"
+			},
+			"ingredients": {
+				"Boiling water": "1 cup"
+			},
+			"instructions": [
+				"Pour boiling water over yarrow leaves and steep for 10 minutes.",
+				"Strain and drink as a herbal infusion."
+			]
+		},
+		{
+			"title": "Echinacea Tea",
+			"plants": {
+				"Coneflower": "1 tbsp dried petals"
+			},
+			"ingredients": {
+				"Hot water": "1 cup"
+			},
+			"instructions": [
+				"Place dried coneflower petals in a cup and pour hot water over them.",
+				"Steep for 10 minutes, strain, and serve warm."
+			]
+		},
+		{
+			"title": "Cow Parsley Pesto",
+			"plants": {
+				"Cow parsley": "1/4 cup leaves"
+			},
+			"ingredients": {
+				"Olive oil": "2 tbsp",
+				"Garlic": "1 clove",
+				"Salt": "to taste"
+			},
+			"instructions": [
+				"Blend cow parsley leaves, garlic, and olive oil until smooth.",
+				"Add salt to taste and use as a pasta sauce or spread."
+			]
+		},
+		{
+			"title": "Dandelion Green Salad",
+			"plants": {
+				"Dandelion": "1 cup leaves"
+			},
+			"ingredients": {
+				"Lemon juice": "1 tbsp",
+				"Olive oil": "1 tbsp",
+				"Salt": "to taste"
+			},
+			"instructions": [
+				"Toss dandelion leaves with lemon juice, olive oil, and salt.",
+				"Serve as a fresh, slightly bitter salad."
+			]
+		},
+		{
+			"title": "Gardenia Floral Ice Cream",
+			"plants": {
+				"Gardenia": "2 tbsp fresh petals"
+			},
+			"ingredients": {
+				"Milk": "1 cup",
+				"Sugar": "1/4 cup",
+				"Heavy cream": "1/2 cup"
+			},
+			"instructions": [
+				"Steep gardenia petals in warm milk for 10 minutes.",
+				"Strain, then mix with sugar and cream.",
+				"Churn in an ice cream maker and freeze."
+			]
+		},
+		{
+			"title": "Borage Lemonade",
+			"plants": {
+				"Borage": "1 tbsp fresh leaves"
+			},
+			"ingredients": {
+				"Lemon juice": "1/4 cup",
+				"Water": "2 cups",
+				"Honey": "1 tbsp"
+			},
+			"instructions": [
+				"Combine lemon juice, water, honey, and borage leaves.",
+				"Stir and refrigerate for 1 hour, then strain and serve cold."
+			]
+		},
+		{
+			"title": "Calendula Salad Dressing",
+			"plants": {
+				"Calendula": "1 tbsp petals"
+			},
+			"ingredients": {
+				"Olive oil": "1/4 cup",
+				"Vinegar": "2 tbsp",
+				"Salt": "to taste"
+			},
+			"instructions": [
+				"Mix calendula petals, olive oil, vinegar, and salt.",
+				"Use as a dressing for fresh salads."
+			]
+		},
+		{
+			"title": "Chive Blossom Vinegar",
+			"plants": {
+				"Chive blossoms": "1/2 cup"
+			},
+			"ingredients": {
+				"White vinegar": "1 cup"
+			},
+			"instructions": [
+				"Combine chive blossoms and vinegar in a clean jar.",
+				"Let steep for 2 weeks, strain, and use as a flavored vinegar."
+			]
+		},
+		{
+			"title": "Coltsfoot Cough Drops",
+			"plants": {
+				"Coltsfoot": "1 tbsp dried flowers"
+			},
+			"ingredients": {
+				"Honey": "1 cup",
+				"Sugar": "1/4 cup"
+			},
+			"instructions": [
+				"Boil honey and sugar together until thickened.",
+				"Add coltsfoot flowers and pour mixture into molds.",
+				"Let cool and harden before use."
+			]
+		},
+		{
+			"title": "Dandelion Syrup",
+			"plants": {
+				"Dandelion": "1 cup flowers"
+			},
+			"ingredients": {
+				"Water": "2 cups",
+				"Sugar": "2 cups"
+			},
+			"instructions": [
+				"Simmer dandelion flowers in water for 10 minutes.",
+				"Strain and add sugar, stirring until dissolved.",
+				"Let cool and store in a jar."
+			]
+		},
+		{
+			"title": "Yarrow Tonic",
+			"plants": {
+				"Common yarrow": "1 tsp dried leaves"
+			},
+			"ingredients": {
+				"Hot water": "1 cup",
+				"Honey": "1 tsp"
+			},
+			"instructions": [
+				"Pour hot water over yarrow leaves and let steep for 10 minutes.",
+				"Strain, add honey, and serve warm as a tonic."
+			]
+		},
+		{
+			"title": "Chicory Root Latte",
+			"plants": {
+				"Chicory": "1 tbsp roasted root, ground"
+			},
+			"ingredients": {
+				"Milk": "1/2 cup",
+				"Water": "1/2 cup"
+			},
+			"instructions": [
+				"Combine water and chicory in a pot and bring to a boil.",
+				"Simmer for 5 minutes, strain, and add milk before serving."
+			]
+		}
+	]
+}
