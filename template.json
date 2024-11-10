@@ -21,9 +21,7 @@
 			"ingredients": {
 				"[INGREDIENT NAME]": "[AMOUNT as int]"
 			},
-			"instructions": {
-				"1": "[STEP 1]"
-			}
+			"instructions": ["[STEP 1]", "[STEP 2]"]
 		}
 	]
 }
