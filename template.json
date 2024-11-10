@@ -1,17 +1,18 @@
 {
 	"unlabled": "[IMAGE NAME]",
-	"labeled": "[IMAGE NAME]",
-	"plants": {
-		"[PLANT NAME]": {
+	"plants": [
+		{
+			"name": "[PLANT NAME]",
 			"qty": "[AMOUNT as int]",
 			"icon": "[ICON NAME]",
+			"labeled": "[IMAGE NAME]",
 			"description": "[DESCRIPTION]",
 			"locations": [
 				["x-start", "y-start", "x-end", "y-end"],
 				["x-start", "y-start", "x-end", "y-end"]
 			]
 		}
-	},
+	],
 	"recipes": [
 		{
 			"title": "[RECIPE NAME]",
