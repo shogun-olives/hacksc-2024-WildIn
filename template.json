@@ -1,0 +1,24 @@
+{
+	"plants": {
+		"[PLANT NAME]": {
+			"image": "[IMAGE NAME].png",
+			"locations": {
+				"0": {
+					"xStart": "[X START as int]",
+					"xEnd": "[X END as int]",
+					"yStart": "[Y START as int]",
+					"yEnd": "[Y END as int]"
+				}
+			},
+			"recipe": {
+				"title": "[RECIPE NAME]",
+				"ingredients": {
+					"[INGREDIENT NAME]": "[AMOUNT as int]"
+				},
+				"instructions": {
+					"1": "[STEP 1]"
+				}
+			}
+		}
+	}
+}
