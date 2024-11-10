@@ -16,7 +16,9 @@ def bounding_boxes(
     :return: Path to the output image.
     """
     # create download directory if it doesn't exist
-    os.mkdir(config.DOWNLOAD_DIR)
+    # skip if exists
+    if not os.path.exists(config.DOWNLOAD_DIR):
+        os.makedirs(config.DOWNLOAD_DIR)
 
     # draw the bounding boxes
     fns = {}

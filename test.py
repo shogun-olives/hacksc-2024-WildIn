@@ -1,8 +1,12 @@
 from helper import process
+import os
 
 
 def main() -> None:
-    process("./data/test.jpg")
+    while True:
+        fn = input(">>> ")
+        fn = os.path.join("./data", fn)
+        process(fn)
 
 
 if __name__ == "__main__":
