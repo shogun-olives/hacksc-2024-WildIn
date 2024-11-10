@@ -7,8 +7,8 @@
 			"icon": "[ICON NAME]",
 			"description": "[DESCRIPTION]",
 			"locations": [
-				["x1-st", "x1-en", "y1-st", "y1-en"],
-				["x2-st", "x2-en", "y2-st", "y2-en"]
+				["x-start", "y-start", "x-end", "y-end"],
+				["x-start", "y-start", "x-end", "y-end"]
 			]
 		}
 	},
